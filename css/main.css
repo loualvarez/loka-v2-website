@@ -458,6 +458,23 @@ p {
       display: -webkit-inline-box;
     }
 
+    .nav > li {
+      margin-bottom: 10px;
+      margin-top: 10px;
+    }
+
+    .header-btn {
+      margin: 0;
+    }
+
+    .nav > li:last-child {
+      margin-bottom: 40px;
+    }
+
+    .nav > li:first-child {
+      margin-top: 20px;
+    }
+
     .navbar-inverse .navbar-toggle {
       border-color: #fff;
     }
