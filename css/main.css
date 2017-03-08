@@ -544,6 +544,9 @@ p {
       float: none !important;
     }
 
+    .footer-info {
+      padding: 0 15px;
+    }
 
     .footer-info .location .col-md-6,
     .footer-info .col-md-2 {
@@ -555,7 +558,11 @@ p {
 
     .footer-info .col-md-6 {
       float: left;
-      margin-right: 40px;
+    }
+
+    #location .col-md-6 p {
+      font-size: 14px;
+      margin-right: 19px;
     }
 
     .col-md-3 {
