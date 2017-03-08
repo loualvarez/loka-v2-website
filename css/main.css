@@ -458,9 +458,29 @@ p {
       display: -webkit-inline-box;
     }
 
+    .navbar-inverse .navbar-toggle {
+      border-color: #fff;
+    }
+
+    .navbar-inverse .navbar-toggle:hover,
+    .navbar-inverse .navbar-toggle:focus {
+        background-color: transparent;
+    }
+
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        border-color: transparent;
+    }
+
+    .navbar-collapse {
+      border-top: 0;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      background: rgba(0, 0, 0, 0.3);
+    }
+
     .jumbotron h1 {
-      padding-left: 40px;
-      padding-right: 40px;
+      padding: 150px 40px 200px 40px;
     }
 
     .button-cta .btn {
