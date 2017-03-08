@@ -531,6 +531,7 @@ p {
 
     .services-landing h1 {
       margin-bottom: 50px;
+      padding: 0 !important;
     }
 
     .content-ontop {
@@ -574,6 +575,12 @@ p {
     .module-2 img {
       margin-top: 50px;
       display: -webkit-inline-box;
+    }
+
+    .module-2 img {
+      width: 100%;
+      height: auto;
+      margin-top: 80px !important;
     }
 
     .align-vertical {
