@@ -458,6 +458,11 @@ p {
       display: -webkit-inline-box;
     }
 
+    .jumbotron h1 {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
     .button-cta .btn {
       margin-top: 50px;
     }
@@ -521,6 +526,10 @@ p {
       margin: 0px !important;
       text-align: center !important;
       padding: 0;
+    }
+
+    .module h1, h1 {
+      font-size: 35px !important;
     }
 
     .featured img,
